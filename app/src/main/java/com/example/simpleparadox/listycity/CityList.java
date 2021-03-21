@@ -81,5 +81,7 @@ public class CityList {
     /**
      * Add a collection of cities to the CityList
      */
-    public void addAll(List<City> cities) {}
+    public void addAll(List<City> cities) {
+        this.cities.addAll(cities);
+    }
 }
