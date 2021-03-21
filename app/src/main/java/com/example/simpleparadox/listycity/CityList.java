@@ -77,4 +77,11 @@ public class CityList {
     public int countCities() {
         return cities.size();
     }
+
+    /**
+     * Add a collection of cities to the CityList
+     */
+    public void addAll(List<City> cities) {
+        this.cities.addAll(cities);
+    }
 }
